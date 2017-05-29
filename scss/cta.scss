@@ -1,0 +1,33 @@
+.cta {
+  background-image: url("../img/THE TEAM CTA.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 201px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  .cta-text{
+    font-family: $font-open;
+    color: $text-color;
+    font-size: 20px;
+    padding: 0 0 30px;
+    font-weight: 200;
+  }
+  .cta-button_contact{
+    text-decoration: none;
+    font-family: $font-open;
+    color: $text-color;
+    font-size: 16px;
+    outline: none;
+    padding: 8px 20px;
+    background-color: rgba(255,255,255,0);
+    border: solid 1px $text-color;
+    border-radius: 20px;
+    &:hover {
+      background-color: rgba(255,255,255,0.3);
+    }
+  }
+}
+
+

@@ -1,0 +1,131 @@
+.footer{
+  outline: none;
+  .footer-text{
+    .footer-text__center{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .footer-text__h3{
+        text-transform: uppercase;
+        color: $textColorDark;
+        font-family: $font-source;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 4px;
+        padding: 75px 0 40px;
+      }
+      .footer-text__p{
+        text-align: center;
+        width: 40%;
+        font-family: $font-open;
+        color: $textColorDark;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 1.9;
+        letter-spacing: 1px;
+        padding: 0 0 70px;
+
+
+      }
+    }
+  }
+  .footer-maps{
+    height: 439px;
+
+  }
+  .footer-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .footer-data__logo{
+      padding: 75px 0 0;
+    }
+    .footer-data__text{
+      padding: 25px 0 0;
+      font-family: $font-open;
+      font-size: 14px;
+      color: $textColorDark;
+    }
+    .footer-data__social{
+      padding: 35px 0 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .fa-facebook{
+        background-color: #3b5998;
+        color: #ffffff;
+        border-radius: 50%;
+        padding: 7px 11px;
+        margin: 5px;
+        border: solid 2px rgba(255,255,255,0);
+        &:hover{
+          color: #3b5998;
+          background-color: rgba(255,255,255,0);
+          border: solid 2px #3b5998;
+      }
+      }
+      .fa-twitter {
+        background-color: #51a5ce;
+        color: #ffffff;
+        border-radius: 50%;
+        padding: 7px 8px;
+        margin: 5px;
+        border: solid 2px rgba(255, 255, 255, 0);
+        &:hover {
+          color: #51a5ce;
+          background-color: rgba(255, 255, 255, 0);
+          border: solid 2px #51a5ce;
+
+        }
+      }
+
+        .fa-linkedin {
+          background-color: #3476a5;
+          color: #ffffff;
+          border-radius: 50%;
+          padding: 7px 8px;
+          margin: 5px;
+          border: solid 2px rgba(255, 255, 255, 0);
+          &:hover {
+            color: #3476a5;
+            background-color: rgba(255, 255, 255, 0);
+            border: solid 2px #3476a5;
+          }
+
+        }
+          .fa-instagram {
+            background-color: #4a7299;
+            color: #ffffff;
+            border-radius: 50%;
+            padding: 7px 8px;
+            margin: 5px;
+            border: solid 2px rgba(255, 255, 255, 0);
+            &:hover {
+              color: #4a7299;
+              background-color: rgba(255, 255, 255, 0);
+              border: solid 2px #4a7299;
+            }
+
+          }
+            .fa-vimeo {
+              background-color: #96c9ec;
+              color: #ffffff;
+              border-radius: 50%;
+              padding: 7px 8px;
+              margin: 5px;
+              border: solid 2px rgba(255, 255, 255, 0);
+              &:hover {
+                color: #96c9ec;
+                background-color: rgba(255, 255, 255, 0);
+                border: solid 2px #96c9ec;
+              }
+            }
+
+      }
+    }
+  }
+

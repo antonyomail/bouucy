@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Sans+Pro:200,300,400');
+$font-open: 'Open Sans', sans-serif;
+$font-source: 'Source Sans Pro', sans-serif;
+$text-color: #ffffff;
+$textColorDark : #7c8087;
+
+@import "header";
+@import "portfolio";
+@import "team";
+@import "cta";
+@import "testimonials";
+@import "footer";
+@import "slick";
+@import "slick-theme";
+
