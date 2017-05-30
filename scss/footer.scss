@@ -53,79 +53,53 @@
       padding: 35px 0 70px;
       display: flex;
       justify-content: center;
-      align-items: center;
-
-      .fa-facebook{
-        background-color: #3b5998;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 11px;
-        margin: 5px;
-        border: solid 2px rgba(255,255,255,0);
-        &:hover{
-          color: #3b5998;
-          background-color: rgba(255,255,255,0);
-          border: solid 2px #3b5998;
-      }
-      }
-      .fa-twitter {
-        background-color: #51a5ce;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 8px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0);
+      align-items:center;
+      .fb {
         &:hover {
-          color: #51a5ce;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #51a5ce;
-
+          opacity:.7;
         }
-      }
-
-        .fa-linkedin {
-          background-color: #3476a5;
-          color: #ffffff;
-          border-radius: 50%;
-          padding: 7px 8px;
-          margin: 5px;
-          border: solid 2px rgba(255, 255, 255, 0);
-          &:hover {
-            color: #3476a5;
-            background-color: rgba(255, 255, 255, 0);
-            border: solid 2px #3476a5;
-          }
-
-        }
-          .fa-instagram {
-            background-color: #4a7299;
-            color: #ffffff;
-            border-radius: 50%;
-            padding: 7px 8px;
-            margin: 5px;
-            border: solid 2px rgba(255, 255, 255, 0);
-            &:hover {
-              color: #4a7299;
-              background-color: rgba(255, 255, 255, 0);
-              border: solid 2px #4a7299;
-            }
-
-          }
-            .fa-vimeo {
-              background-color: #96c9ec;
-              color: #ffffff;
-              border-radius: 50%;
-              padding: 7px 8px;
-              margin: 5px;
-              border: solid 2px rgba(255, 255, 255, 0);
-              &:hover {
-                color: #96c9ec;
-                background-color: rgba(255, 255, 255, 0);
-                border: solid 2px #96c9ec;
-              }
-            }
+        .social
+        {margin: 5px}
 
       }
+      .tw {
+        &:hover {
+          opacity:.7;
+        }
+        .social
+        {margin: 5px}
+
+      }
+      .lin {
+        &:hover {
+          opacity:.7;
+        }
+        .social
+        {margin: 5px}
+
+      }
+      .ins {
+        &:hover {
+          opacity:.7;
+        }
+        .social
+        {margin: 5px}
+
+      }
+      .vi {
+        &:hover {
+          opacity:.7;
+        }
+        .social
+        {margin: 5px}
+
+      }
+
+
+
     }
+
   }
+}
+
 

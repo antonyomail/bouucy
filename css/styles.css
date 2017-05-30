@@ -11,6 +11,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -45,7 +48,7 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 86%;
-    margin: 60px 0;
+    margin: 60px 0 0;
     outline: none; }
     .intro .intro-navbar .intro-navbar__logo {
       display: -webkit-box;
@@ -75,44 +78,47 @@
             border: solid 1px #ffffff;
             border-radius: 15px;
             background-color: rgba(255, 255, 255, 0.3); }
-  .intro .intro-content {
-    color: #ffffff;
+  .intro .content-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 50%;
-    display: inline-block;
-    text-align: center;
-    margin: 175px 0 0; }
-    .intro .intro-content .content-text__h2 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+    color: #ffffff; }
+    .intro .content-text .content-text__h2 {
+      padding: 0 0 45px;
       font-family: "Source Sans Pro", sans-serif;
       text-transform: uppercase;
       font-size: 35px;
       font-weight: 200;
       letter-spacing: 7px; }
-    .intro .intro-content .content-text__p {
-      margin: 25px;
-      display: inline-block;
+    .intro .content-text .content-text__p {
       text-align: center;
       font-family: "Open Sans", sans-serif;
       font-weight: 200;
       font-size: 16px;
       line-height: 1.7;
-      letter-spacing: 3px; }
-    .intro .intro-content .fa-chevron-down {
-      margin: 25vh 0;
-      border-radius: 50%;
-      background-color: #19bd9a;
-      text-decoration: none;
-      color: #ffffff;
-      padding: 8px;
-      border: solid 2px #19bd9a; }
-      .intro .intro-content .fa-chevron-down:hover {
-        color: #19bd9a;
-        background-color: rgba(255, 255, 255, 0); }
+      letter-spacing: 1.5px; }
+  .intro .fa-chevron-down {
+    margin: 0 0 75px;
+    border-radius: 50%;
+    background-color: #19bd9a;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    border: solid 2px #19bd9a; }
+    .intro .fa-chevron-down:hover {
+      color: #19bd9a;
+      background-color: rgba(255, 255, 255, 0); }
 
 .portfolio {
   background-color: #f3f3f3;
@@ -170,6 +176,8 @@
       .portfolio .portfolio-navbar .portfolio-navbar__menu:hover {
         border-bottom: solid 1px #19bd9a; }
   .portfolio .grid {
+    max-width: 1150px;
+    text-align: center;
     outline: none;
     margin: 0 auto;
     width: 85%;
@@ -435,61 +443,26 @@
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .footer .footer-data .footer-data__social .fa-facebook {
-        background-color: #3b5998;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 11px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0); }
-        .footer .footer-data .footer-data__social .fa-facebook:hover {
-          color: #3b5998;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #3b5998; }
-      .footer .footer-data .footer-data__social .fa-twitter {
-        background-color: #51a5ce;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 8px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0); }
-        .footer .footer-data .footer-data__social .fa-twitter:hover {
-          color: #51a5ce;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #51a5ce; }
-      .footer .footer-data .footer-data__social .fa-linkedin {
-        background-color: #3476a5;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 8px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0); }
-        .footer .footer-data .footer-data__social .fa-linkedin:hover {
-          color: #3476a5;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #3476a5; }
-      .footer .footer-data .footer-data__social .fa-instagram {
-        background-color: #4a7299;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 8px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0); }
-        .footer .footer-data .footer-data__social .fa-instagram:hover {
-          color: #4a7299;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #4a7299; }
-      .footer .footer-data .footer-data__social .fa-vimeo {
-        background-color: #96c9ec;
-        color: #ffffff;
-        border-radius: 50%;
-        padding: 7px 8px;
-        margin: 5px;
-        border: solid 2px rgba(255, 255, 255, 0); }
-        .footer .footer-data .footer-data__social .fa-vimeo:hover {
-          color: #96c9ec;
-          background-color: rgba(255, 255, 255, 0);
-          border: solid 2px #96c9ec; }
+      .footer .footer-data .footer-data__social .fb:hover {
+        opacity: .7; }
+      .footer .footer-data .footer-data__social .fb .social {
+        margin: 5px; }
+      .footer .footer-data .footer-data__social .tw:hover {
+        opacity: .7; }
+      .footer .footer-data .footer-data__social .tw .social {
+        margin: 5px; }
+      .footer .footer-data .footer-data__social .lin:hover {
+        opacity: .7; }
+      .footer .footer-data .footer-data__social .lin .social {
+        margin: 5px; }
+      .footer .footer-data .footer-data__social .ins:hover {
+        opacity: .7; }
+      .footer .footer-data .footer-data__social .ins .social {
+        margin: 5px; }
+      .footer .footer-data .footer-data__social .vi:hover {
+        opacity: .7; }
+      .footer .footer-data .footer-data__social .vi .social {
+        margin: 5px; }
 
 /* Slider */
 .slick-slider {
@@ -708,4 +681,5 @@
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: #19bd9a; }
+
 /*# sourceMappingURL=styles.css.map */

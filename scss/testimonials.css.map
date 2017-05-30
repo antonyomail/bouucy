@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAa;EACX,gBAAgB,EAAE,OAAO;EACzB,gCAAmB;IACjB,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,MAAM;IACtB,eAAe,EAAE,MAAM;IACvB,WAAW,EAAE,MAAM",
-"sources": ["testimonials.scss"],
-"names": [],
-"file": "testimonials.css"
-}
